@@ -64,5 +64,8 @@ namespace UnityNativeCallbackSystem {
             SetOnGraphicsDeviceEvent(null);
         }
 
+        static UnityNativeCallback() {
+            RegisterCallbacks();
+        }
     }
 }

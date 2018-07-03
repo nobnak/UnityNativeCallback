@@ -6,7 +6,7 @@ namespace UnityNativeCallbackSystem.Examples {
 
     public class TestEvents : MonoBehaviour {
         private void Awake() {
-            UnityNativeCallback.RegisterCallbacks();
+            //UnityNativeCallback.RegisterCallbacks();
 
             UnityNativeCallback.EventOnUnityPluginLoad += () => {
                 Debug.Log("Load");
@@ -17,7 +17,7 @@ namespace UnityNativeCallbackSystem.Examples {
         }
         private void OnDestroy()
         {
-            UnityNativeCallback.UnregisterCallbacks();
+            //UnityNativeCallback.UnregisterCallbacks();
         }
     }
 }
