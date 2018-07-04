@@ -1,0 +1,9 @@
+LIBRARY
+
+EXPORTS
+	UnityPluginLoad
+	UnityPluginUnload
+
+	SetOnUnityPluginLoad
+	SetOnUnityPluginUnload
+	SetOnGraphicsDeviceEvent
